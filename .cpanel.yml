@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/mohan/public_html/mohanscloud
+    - /bin/cp -R images $DEPLOYPATH
