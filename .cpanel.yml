@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export DEPLOYPATH=/home/mohan/public_html/mohanscloud
+    - export DEPLOYPATH=/home/mohan/mscloud
     - /bin/cp -R images $DEPLOYPATH
